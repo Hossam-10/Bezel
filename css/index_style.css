@@ -1,0 +1,445 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*fist section*/
+
+.nav-mine
+{
+    font-size: 40px;
+    font-weight: 700;
+    color: darkgoldenrod;
+}
+
+.dot
+{
+    font-weight: 700;
+    color: #00C0D8;
+}
+.navbar-nav li
+{
+    padding-left: 15px; !important
+}
+
+.bg-mine
+{
+    background-color: transparent;
+    color: darkgoldenrod;
+}
+
+.nav-link
+{
+    color: darkgoldenrod;
+}
+
+.head
+{
+    font-size: 100px;
+    font-weight: 800
+}
+.btnn
+{
+  border: 1px solid transparent;
+  padding: 12px 28px;
+  border-radius: 3px;
+  margin-right: 10px;
+    color: white;
+    background-color: #00D5EE;
+}
+
+.btnnn
+{
+    border: 1px solid white;
+  padding: 12px 28px;
+  border-radius: 3px;
+  margin-right: 10px;
+    color: white;
+    background-color: transparent;
+}
+
+.btnnn:hover
+{
+    background-color: white;
+    color: black;
+}
+
+.caption-outer
+{
+    position: relative;
+}
+.caption1
+{
+   position: absolute;
+    top: 30%;
+    left: 20%;
+    text-align: center;
+    color:darkblue;
+    font-weight: 700;
+   
+    
+}
+.caption1 p
+{
+    font-size: 30px;
+}
+
+.caption2
+{
+   position: absolute;
+    top: 30%;
+    left: 20%;
+    text-align: center;
+    color:white;
+   
+    
+}
+.caption2 p
+{
+    font-size: 30px;
+}
+
+/*end of first section*/
+
+/*second section*/
+.who
+{
+    margin-top: 50px;
+   
+}
+.who p
+{
+    font-size: 30px;
+}
+.btn-mine
+{
+    border-radius: 0;
+}
+
+.anime:after
+{
+   content: "";
+   animation-name: anime1;
+   animation-duration: 10s;
+	animation-iteration-count: infinite;
+    width: 100%;
+    height: 100%;
+    color: #00c3da;
+}
+
+
+@keyframes anime1
+{
+    0%{content: "|"}
+    2%{content: "a|"}
+    5%{content: "ap|"}
+    7%{content: "app|"}
+    10%{content: "apps|"}
+    11%{content: "apps|"}
+    12%{content: "app|"}
+    15%{content: "ap|"}
+    17%{content: "a|"}
+    20%{content: "|"} 
+    
+    22%{content: "w|"}
+    25%{content: "we|"}
+    27%{content: "web|"}
+    30%{content: "webs|"}
+    32%{content: "websi|"}
+    35%{content: "websit|"}
+    37%{content: "website|"}
+    40%{content: "websites|"}
+    41%{content: "websites|"}
+    42%{content: "website|"} 
+    45%{content: "websit|"}
+    47%{content: "websi|"}
+    50%{content: "webs|"}
+    52%{content: "web|"}
+    55%{content: "we|"}
+    57%{content: "w|"}
+    60%{content: "|"}
+    
+    62%{content: "s|"}
+    65%{content: "so|"}
+    67%{content: "sof|"}
+    70%{content: "soft|"}
+    72%{content: "softw|"}
+    75%{content: "softwa|"}
+    77%{content: "softwar|"}
+    80%{content: "software|"}
+    82%{content: "softwares|"}
+    83%{content: "softwares|"}
+    84%{content: "softwares|"}
+    85%{content: "software|"}
+    87%{content: "softwar|"}
+    90%{content: "softwa|"}
+    92%{content: "softw|"}
+    94%{content: "soft|"}
+    96%{content: "sof|"}
+    98%{content: "so|"}
+    99%{content: "s|"}
+    100%{content: "|"}
+}
+
+/*end of second section*/
+
+
+
+
+
+/* third section*/
+.mission2 a
+{
+    padding: 10px;
+}
+
+
+
+.a-mine
+{
+    position: relative;
+}
+.a-mine:after
+{
+    content: "";
+    background-color: black;
+    width: 60px;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-left: 3px;
+}
+
+/*end of third section*/
+
+
+/* fourth section*/
+
+.teams
+{
+    position: relative;
+    overflow: hidden;
+}
+
+.teams-outer
+{
+    background-color: rgba(24,199,220,0.9);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: top 0.25s;
+}
+
+.teams:hover .teams-outer
+{
+    top: 0;
+}
+
+.teams-inner
+{
+   
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.teams-inner i
+{
+    padding-right: 10px;
+}
+
+.teams-inner .words
+{
+    position: absolute;
+    bottom: 0;  
+}
+
+/*end of fourth section*/
+
+/*fifth section*/
+.what-we-do
+{
+    background-image: url(bg-image-26.jpg);
+    background-size: 100% 100%;
+    
+}
+
+.what-we
+{
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.check-mine
+{
+   padding-left:  150px;
+}
+
+.check-mine ul
+{
+    list-style: none;
+}
+
+
+.what-we-layer
+{
+    background-color: rgba(0,0,0,0.7);
+    height: 100%;
+   
+}
+
+
+@media screen and (max-width:991px)
+{
+    .check-mine1
+    {
+        text-align: center; !important
+    }
+    .check-mine
+    {
+        padding-left: 0; !important
+    }
+}
+
+/*end of fifth section*/
+
+/*sixth section*/
+.work button
+{
+    margin: 20px;
+}
+
+.works
+{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    
+}
+
+.works-inner
+{
+    background-color: white;
+    position: absolute;
+    bottom: -200;
+    left: 20px;
+    right: 20px;
+    transition: all 1s;
+    
+}
+
+.works-inner h4
+{
+    opacity: 0;
+    transition: opacity 1s 1s
+}
+
+.works-inner p
+{
+    opacity: 0;
+    transition: opacity 1s 1.25s
+}
+
+.works img
+{
+    width: 100%;
+    transition: all 1s;
+}
+
+.works:hover img
+{
+    transform: scale(1.2,1.2);
+}
+
+.works:hover .works-inner
+{
+    bottom: 20px;
+}
+
+.works:hover .works-inner h4
+{
+    opacity: 1;
+}
+.works:hover .works-inner p
+{
+    opacity: 1;
+}
+/*end of sixth section*/
+
+/*seventh section*/
+.number
+{
+    font-size: 60px;
+    font-weight: 600;
+    position: relative;
+    margin-left: 20px;
+    
+}
+
+.number:before
+{
+    content: "$";
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+.number1
+{
+    color: #00C3DA;
+}
+
+.btn1
+{
+    border-radius: 80%;
+    border: none;
+    font-size: 14px;
+}
+
+.prices
+{
+    background-color: #F7F7F7;
+    padding-bottom: 75px;
+    padding-top: 100px
+}
+
+/*end of seventh section*/
+
+.carousel1
+{
+    text-align: center;
+    background-color: white;
+    padding:50px;
+    position: relative; 
+    border: 1px solid transparent
+}
+.carousel1 img
+{
+    position: absolute;
+    top: -10%;
+    left: 45%;
+    width: 70px;
+}
+.carousel-mine
+{
+    overflow: visible !important
+}
+.h6head
+{
+    padding-bottom: 80px; 
+}
+
+
+
+
+
+
+
